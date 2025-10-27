@@ -1,0 +1,5 @@
+
+/* force displayed emails to lowercase */
+.email-lowercase {
+    text-transform: lowercase !important;
+}
