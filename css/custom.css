@@ -3,3 +3,56 @@
 .email-lowercase {
     text-transform: lowercase !important;
 }
+.footer-button-container {
+    text-align: center;
+    margin: 30px 0; /* Space above footer */
+}
+
+.footer-button {
+    background-color: #fff; /* White background */
+    border: 2px solid #000; /* Black border */
+    color: #000; /* Black text */
+    padding: 12px 30px;
+    border-radius: 50px; /* Rounded button */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.footer-button:hover {
+    background-color: #000; /* Black background on hover */
+    color: #fff; /* White text on hover */
+}
+/* Make images responsive within sections */
+.section img {
+  width: 100%;           /* Stretch to container width */
+  height: auto;          /* Keep aspect ratio */
+  object-fit: cover;     /* Crops to fit if needed */
+  border-radius: 6px;    /* Optional - makes edges soft */
+  display: block;
+}
+
+/* Ensure text and image columns align vertically */
+.section .col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically centers text beside image */
+}
+
+/* Optional - add consistent spacing */
+.section .full {
+  margin-bottom: 20px;
+}
+/* Equal height columns on large screens */
+@media (min-width: 768px) {
+  .section .row {
+    display: flex;
+    align-items: stretch;
+  }
+
+  .section .col-md-6 img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
