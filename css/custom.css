@@ -1,19 +1,20 @@
-
 /* force displayed emails to lowercase */
 .email-lowercase {
     text-transform: lowercase !important;
 }
+
+/* Footer button (if used anywhere) */
 .footer-button-container {
     text-align: center;
-    margin: 30px 0; /* Space above footer */
+    margin: 30px 0;
 }
 
 .footer-button {
-    background-color: #fff; /* White background */
-    border: 2px solid #000; /* Black border */
-    color: #000; /* Black text */
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
     padding: 12px 30px;
-    border-radius: 50px; /* Rounded button */
+    border-radius: 50px;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
@@ -21,99 +22,124 @@
 }
 
 .footer-button:hover {
-    background-color: #000; /* Black background on hover */
-    color: #fff; /* White text on hover */
+    background-color: #000;
+    color: #fff;
 }
+
 /* Make images responsive within sections */
 .section img {
-  width: 100%;           /* Stretch to container width */
-  height: auto;          /* Keep aspect ratio */
-  object-fit: cover;     /* Crops to fit if needed */
-  border-radius: 6px;    /* Optional - makes edges soft */
-  display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
 }
 
 /* Ensure text and image columns align vertically */
 .section .col-md-6 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* Vertically centers text beside image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-/* Optional - add consistent spacing */
 .section .full {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
-/* Equal height columns on large screens */
+
+/* Equal height rows */
 @media (min-width: 768px) {
-  .section .row {
-    display: flex;
-    align-items: stretch;
-  }
+    .section .row {
+        display: flex;
+        align-items: stretch;
+    }
 
-  .section .col-md-6 img {
-    height: 100%;
-    object-fit: cover;
-  }
-}
-/* === FOOTER FIX (Matches Second Image) === */
-
-footer {
-    background-color: #f5f5f5;
-    padding: 40px 0;
+    .section .col-md-6 img {
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
-.footer-container {
-    max-width: 1200px;
-    margin: auto;
+/* ===================================================== */
+/* =============== FINAL FOOTER FIX ===================== */
+/* ===================================================== */
+
+/* Main footer container */
+.footer-box {
+    background-color: #f5f5f5 !important;
+    padding: 50px 0 !important;
+}
+
+.footer-box .row {
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
-    gap: 60px;
 }
 
-.footer-logo img {
-    width: 180px;   /* consistent logo size */
+/* Logo size */
+.footer_blog .logo {
+    width: 180px;
     height: auto;
 }
 
-.footer-column {
-    flex: 1;
-}
-
-.footer-column h3 {
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 15px;
+/* Headings (matching second image style) */
+.footer_blog h5 {
+    font-size: 20px !important;
+    font-weight: 700 !important;
     border-bottom: 2px solid #000;
-    padding-bottom: 5px;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+    color: #000 !important;
 }
 
-.footer-column ul {
+/* Footer text and links */
+.footer_blog ul {
     list-style: none;
     padding: 0;
 }
 
-.footer-column ul li {
+.footer_blog ul li {
     margin-bottom: 10px;
     font-size: 14px;
+    color: #000;
 }
 
-.footer-column ul li a {
-    text-decoration: none;
-    color: #000;
+.footer_blog ul li a {
+    color: #000 !important;
+    text-decoration: none !important;
     transition: 0.3s;
 }
 
-.footer-column ul li a:hover {
-    text-decoration: underline;
+.footer_blog ul li a:hover {
+    text-decoration: underline !important;
 }
 
-/* Footer bottom bar */
-.footer-bottom {
-    text-align: center;
+/* Contact icons alignment */
+.footer_content li img {
+    width: 18px;
+    margin-right: 8px;
+}
+
+/* Bottom bar */
+.footer_bottom {
+    background-color: #f5f5f5 !important;
     padding: 20px 0;
-    font-size: 13px;
+    text-align: center;
     border-top: 1px solid #ccc;
-    margin-top: 40px;
+}
+
+.footer_bottom .crp {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #000;
+}
+
+.footer_bottom .quick_links a {
+    margin: 0 10px;
+    font-size: 14px;
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.footer_bottom .quick_links a:hover {
+    text-decoration: underline !important;
 }
