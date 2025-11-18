@@ -58,3 +58,112 @@
         object-fit: cover;
     }
 }
+/* Main footer container */
+.footer-box {
+    background-color: #f5f5f5 !important;
+    padding: 50px 0 !important;
+}
+ 
+.footer-box .row {
+    display: flex;
+    align-items: flex-start;
+}
+ 
+/* Logo size */
+.footer_blog .logo {
+    width: 180px;
+    height: auto;
+}
+ 
+/* Footer headings */
+.footer_blog h5 {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    border-bottom: 2px solid #000;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+    color: #000 !important;
+}
+ 
+/* Footer text and links */
+.footer_blog ul {
+    list-style: none;
+    padding: 0;
+}
+ 
+.footer_blog ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #000;
+}
+ 
+.footer_blog ul li a {
+    color: #000 !important;
+    text-decoration: none !important;
+    transition: 0.3s;
+}
+ 
+.footer_blog ul li a:hover {
+    text-decoration: underline !important;
+}
+ 
+/* Contact icons alignment */
+.footer_content li img {
+    width: 18px;
+    margin-right: 8px;
+}
+ 
+/* Bottom bar */
+.footer_bottom {
+    background-color: #f5f5f5 !important;
+    padding: 12px 0 !important;
+    text-align: center;
+    border-top: 1px solid #ccc !important;
+    margin-top: 0 !important;
+}
+ 
+/* Bottom text */
+.footer_bottom .crp {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #000 !important;
+}
+ 
+/* Bottom quick links */
+.footer_bottom .quick_links a {
+    margin: 0 10px;
+    font-size: 14px;
+    color: #000 !important;
+    text-decoration: none;
+}
+ 
+.footer_bottom .quick_links a:hover {
+    text-decoration: underline !important;
+}
+ 
+/* FIX: remove the extra white space under the footer */
+body, html {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+ 
+/* Fix theme containers adding empty space below footer */
+footer.footer-section,
+.footer_bottom {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+ 
+/* Any element immediately after footer → remove margin */
+footer + * {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+ 
+/* Remove invisible div padding from theme */
+div:last-child {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+ 
