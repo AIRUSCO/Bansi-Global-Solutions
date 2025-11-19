@@ -61,10 +61,10 @@
  
 /* Bottom bar */
 .footer_bottom {
-    background-color: #2171da !important;
+    background-color: #285DA2 !important;
     padding: 12px 0 !important;
     text-align: center;
-    border-top: 1px solid #2171da !important;
+    border-top: 1px solid #285DA2 !important;
     margin-top: 0 !important;
 }
  
@@ -73,7 +73,7 @@
     display: block;
     margin-bottom: 10px;
     font-size: 14px;
-    color: #000 !important;
+    color: white !important;
 }
  
 /* Bottom quick links */
