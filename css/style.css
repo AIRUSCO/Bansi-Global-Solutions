@@ -57,11 +57,11 @@ a {
 }
 
 a:hover {
-	color: #FFF;
+	color: #000;
 }
 
 a.black-blue {
-	color: #FFF;
+	color: #000;
 }
 
 a#blue-black {
@@ -90,7 +90,7 @@ h6 {
 	position: relative;
 	padding: 0 0 10px 0;
 	line-height: 120% !important;
-	color: #fff;
+	color:#000;
 	margin: 0
 }
 
@@ -2162,7 +2162,7 @@ ul.social_icon li {
 .footer_bottom span.crp {
     float: left;
     margin: 0 10px;
-    color: #000;
+    color:#FFF;
     font-size: 14px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -2172,7 +2172,7 @@ ul.social_icon li {
 	position: relative;
 	float: right;
 	text-transform: uppercase;
-	color: #000;
+	color:#FFF;
 	font-size: 14px;
 	font-weight: 400;
 	margin: 0 10px;
