@@ -1,4 +1,6 @@
 User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
+Disallow:
+
+
 Sitemap: https://bglobal.uk/sitemap.xml
+Host: bglobal.uk
