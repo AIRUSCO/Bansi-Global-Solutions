@@ -1,4 +1,6 @@
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
+User-agent: *
+Disallow: /*.pdf$
 Sitemap: https://bglobal.uk/sitemap.xml
