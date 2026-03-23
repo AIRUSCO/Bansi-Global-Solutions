@@ -1,6 +1,5 @@
 User-agent: *
-Disallow: 
 Disallow: /cgi-bin/
-User-agent: *
-Disallow: /*.pdf$
-Sitemap: https://bglobal.uk/sitemap.xml
+Disallow: /?s= 
+Disallow: /*.pdf$ 
+Sitemap: https://bgolbal.uk/sitemap.xml
